@@ -11,11 +11,13 @@ urlpatterns = [
     path('blogs/',views.blog_details,name='blogs'),
     path('starter/',views.starter,name='starter'),
     path('portfolio/',views.portfolio,name='portfolio'),
-    path('transaction/', views.transactions_list, name='transaction'),
     path('', views.register, name='register'),
     path('login/', views.login_view, name='login'),
     path('pay/', views.pay, name='pay'),
     path('stk/', views.stk, name='stk'),
     path('token/', views.token, name='token'),
+    path('pay/', views.pay, name='pay'),
+    path('transaction/', views.transactions_list, name='transaction'),
+
 
 ]
